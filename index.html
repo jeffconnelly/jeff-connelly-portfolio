@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
   <title>Jeff Connelly</title>
   <meta charset="UTF-8">
@@ -19,7 +19,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Nav Bar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -34,14 +34,14 @@
 
 		<ul class="nav navbar-nav navbar-right">
       <li class="navtext" id="head-click"><a href="#head-container" class="nav-item-text">Profile</a></li>
-      <li class="navtext"  id="contact-click"><a href="#top-project-container" class="nav-item-text">Projects</a></li>
+      <li class="navtext"  id="contact-click"><a href="#project-container" class="nav-item-text">Projects</a></li>
 			<li class="navtext"  id="about-click"><a href="#contact-container" class="nav-item-text">Contact</a></li>
 		</ul>
 	</div>
 	</div>
 </nav>
 
-
+<header role="banner">
 <div class="container-fluid" id="headerimg">
 	<div class="container">
 
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 
-<!-- Header Text -->
+<!-- Header Section -->
 			<div id="header">
 				<div class="row">
 					<div class="col-lg-12">
@@ -70,15 +70,19 @@
 			</div>
 	</div>
 </div>
+</header>
 
-<!-- Intro Text -->
+<!-- Main Section All Wrapped Belows -->
+<main role="main">
+
+<!-- Intro Text Section -->
 <div class="container-fluid" id="head-container">
 	<h2 id="pheader">
 		Hi, my name is Jeff.  I'm a full stack developer living out here in sunny Colorado Springs, CO.<br> I look forward to connecting with you!
 	</h2>
 </div>
 
-<!-- About Me Header -->
+<!-- About Me Section -->
 <section id="about-container">
   <img src="IMG_4322.jpg" class="jcportraitimg" alt="Jeff Profile Headshot" class="center-block">
   <div id="abouttext">
@@ -98,9 +102,8 @@
 <div id="project-section-link">
 </div>
 
-
-
-<section id="top-project-container">
+<!-- Projects Section -->
+<section id="project-container">
   <h1 class="projects-header">My Projects</h1>
   <section id="projects-container">
       <img src="hikes-to-hops.png" class="project-img" alt="Jeff Profile Headshot" class="center-block">
@@ -136,6 +139,7 @@
       </div>
     </section>
 
+<!-- Contact Section -->
   <section id="projects-container">
       <img src="hikes-to-hops.png" class="project-img" alt="Jeff Profile Headshot" class="center-block">
       <div id="projecttext">
@@ -151,17 +155,19 @@
     </section>
 </section>
 
-<section id="contact-container">
-    <h1 class="projects-header">Contact</h1>
-    <h3 class="contact-info">Check Out my <a href="https://github.com/jeffconnelly" target="_blank">Github</a>  <span class="fa fa-github" aria-hidden="true"></span> </h3>
-    <h3 class="contact-info">Reach Out to Me On <a href="https://www.linkedin.com/in/jeff-connelly-68394b65/" target="_blank">LinkedIn</a>  <span class="fa Example of linkedin-square fa-linkedin-square" aria-hidden="true"></span></h3>
-    <h3 class="contact-info last-contact">Email me at <a href="mailto:jeff.connelly6@gmail.com" target="_top">jeff.connelly6@gmail.com</a></h3>
-</section>
-
+<footer role="contentinfo">
+  <section id="contact-container">
+      <h1 class="projects-header">Contact</h1>
+      <h3 class="contact-info">Check Out my <a href="https://github.com/jeffconnelly" target="_blank">Github</a>  <span class="fa fa-github" aria-hidden="true"></span> </h3>
+      <h3 class="contact-info">Reach Out to Me On <a href="https://www.linkedin.com/in/jeff-connelly-68394b65/" target="_blank">LinkedIn</a>  <span class="fa Example of linkedin-square fa-linkedin-square" aria-hidden="true"></span></h3>
+      <h3 class="contact-info last-contact">Email me at <a href="mailto:jeff.connelly6@gmail.com" target="_top">jeff.connelly6@gmail.com</a></h3>
+  </section>
+</footer>
+</main>
+<!-- jQuery/JS import-->
 <script src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
 <script type="text/javascript" src="client.js"></script>
 </body>
 </html>

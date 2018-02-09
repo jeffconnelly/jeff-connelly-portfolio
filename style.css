@@ -16,7 +16,7 @@ body {
   font-weight: 300;
 }
 
-/* Nav Bar */
+/*** Nav Bar ***/
 
 .navbar-inverse {
 background:  rgb(100, 147, 186);
@@ -46,7 +46,7 @@ background:  rgb(100, 147, 186);
 	background-color: rgb(100, 147, 186) ;
 }
 
-/* Header Image Section */
+/*** Header Image Section ***/
 
 #headerimg {	
   background-size: cover;
@@ -79,10 +79,9 @@ https://images.unsplash.com/46/iYvDeqVGRbebiQv2PIJi_DSC_8407.JPG?ixlib=rb-0.3.5&
 	padding-top: 1%;
 	white-space: nowrap;
   font-weight: 200px;
-  /* margin: 0; */
-  /* max-width: 90%; */
 }
 
+/*Attempt to get background shadow behind text*/
 .header-background {
   /* display: inline-block; */
   /* background-color: rgba(207, 206, 210,.30); */
@@ -104,16 +103,11 @@ h3{
   font-size: 1.2em;
 }
 
-/*Portfolio Header */
+/*** Portfolio Header ***/
 
 #head-container {
 		background-color: white;
 		opacity: .9;
-}
-
-.imgs {
-/*#wrap:hover .cover {
-    display:block;    */
 }
 
 #pheader {
@@ -138,16 +132,12 @@ h3{
 
 /*Portfolio Images */
 
-.thumbnail:hover {
-  background-color: rgb(100, 147, 186);
-  opacity: 0.6;
-} 
 
 #port-container {
 	margin-top: 20px;
 }
 
-/*About Me Section*/
+/*** About Me Section ***/
 
 #about-container {
 	background-color: rgb(100, 147, 186);
@@ -192,7 +182,7 @@ p {
   border: 8px double white;
 }
 
-/*Project Section */
+/*** Project Section ***/
 
 .projects-header {
   font-family: Raleway;
@@ -226,6 +216,11 @@ p {
   border: 8px double white;
 }
 
+.project-img:hover {
+  background-color: #CFCED3;
+  opacity: 0.8;
+} 
+
 #projecttext {
   align-self: center;
   max-width: 50%;
@@ -242,7 +237,7 @@ p {
 	font-size: 3em;
 }
 
-/*Contact Section*/
+/*** Contact Section ***/
 
 .projects-header {
   font-family: Raleway;
@@ -263,9 +258,9 @@ p {
 .last-contact {
   margin-bottom: 50px;
 }
-/*Media Queries*/
 
 
+/*** Media Queries ***/
 
 @media (max-width: 760px) {
   #about-container, #projects-container {
@@ -299,8 +294,6 @@ p {
   }
 }
 
-
-
-
-
 /* and (min-width: 480px) */
+
+
