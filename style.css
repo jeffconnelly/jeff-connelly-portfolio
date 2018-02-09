@@ -132,13 +132,6 @@ h3{
 	border-color: #DDDDDD	
 } 
 
-/*Portfolio Images */
-
-
-#port-container {
-	margin-top: 20px;
-}
-
 /*** About Me Section ***/
 
 #about-container {
@@ -264,8 +257,27 @@ p {
   margin-bottom: 50px;
 }
 
+.contact-text {
+  max-width: 60%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 
 /*** Media Queries ***/
+
+@media (max-width: 1024px) {
+
+  #about-container, #projects-container {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #abouttext, #projecttext {
+    max-width: 90%;
+  }
+}
 
 @media (max-width: 760px) {
   #about-container, #projects-container {
@@ -298,13 +310,12 @@ p {
     height: 200px;
   }
 
-
   h3 {
     font-size: 1.8em;
   }
+
+  .contact-info {
+    font-size: 1.5em;
+  }
 }
 
-/* and (min-width: 480px) */
-
-
-/* double box shadow, blue then white. */
