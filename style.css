@@ -47,6 +47,10 @@ border-color: #CFCED3;
 	background-color: rgb(100, 147, 186) ;
 }
 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: rgb(100, 147, 186);
+}
+
 /*** Header Image Section ***/
 
 #headerimg {	
