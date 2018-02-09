@@ -28,18 +28,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-			<a href="#" class="navbar-brand"><span class="fa fa-paw" aria-hidden="true"></span> Jeff Connelly</a>
+			<a href="#" class="navbar-brand"><span class="fa fa-superpowers" aria-hidden="true"></span> Jeff Connelly</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-nav-demo">
 
 		<ul class="nav navbar-nav navbar-right">
-      <li class="navtext" id="head-click"><a href="#head-container">Profile</a></li>
-      <li class="navtext"  id="contact-click"><a href="#project-container">Projects</a></li>
-			<li class="navtext"  id="about-click"><a href="#contact-container">Contact</a></li>
+      <li class="navtext" id="head-click"><a href="#head-container" class="nav-item-text">Profile</a></li>
+      <li class="navtext"  id="contact-click"><a href="#top-project-container" class="nav-item-text">Projects</a></li>
+			<li class="navtext"  id="about-click"><a href="#contact-container" class="nav-item-text">Contact</a></li>
 		</ul>
 	</div>
 	</div>
 </nav>
+
 
 <div class="container-fluid" id="headerimg">
 	<div class="container">
@@ -48,7 +49,7 @@
 		<div>
 			<div class="row">
 				<div class="col-lg-12">
-				<img src="jcc.png" id="jcimg" alt="Jeff Profile" class="center-block">
+				<img src="jcc.png" id="jc-top-img" alt="Jeff Profile" class="center-block">
 				</div>
 			</div>
 		</div>
@@ -95,14 +96,12 @@
 </section>
 
 <div id="project-section-link">
-
-
 </div>
 
-<section id="project-container">
+
+
+<section id="top-project-container">
   <h1 class="projects-header">My Projects</h1>
-
-
   <section id="projects-container">
       <img src="hikes-to-hops.png" class="project-img" alt="Jeff Profile Headshot" class="center-block">
       <div id="projecttext">
@@ -120,14 +119,13 @@
       </div>
     </section>
 
-
   <section id="projects-container">
       <img src="streamline.png" class="project-img" alt="Jeff Profile Headshot" class="center-block">
       <div id="projecttext">
         <h2 id="projectheader">
           StreamLine
         </h2>
-        <p>StreamLine your streaming process! StreamLine is the definitive directory for finding where you can watch movies and TV shows across multiple streaming services.
+        <p>StreamLine your streaming process! StreamLine is the definitive directory for finding where you can watch movies and TV shows across multiple streaming services.  I primarily coded the backend for this project, working with Node/Express, MongoDB/Mongoose for the database, RESTful endpoints and testing with Mocha & Chai.
         <br>
         <br>
         Technologies Used: Node.js, Express.js, MongoDB & Mongoose, ES6 JavaScript, jQuery, HTML5, CSS3.
@@ -137,7 +135,6 @@
         </a>
       </div>
     </section>
-
 
   <section id="projects-container">
       <img src="hikes-to-hops.png" class="project-img" alt="Jeff Profile Headshot" class="center-block">
@@ -156,8 +153,9 @@
 
 <section id="contact-container">
     <h1 class="projects-header">Contact</h1>
-    <h3 class="contact-info">Check Out my <a href="https://github.com/jeffconnelly" target="_blank">Github</a></h3>
-    <h3 class="contact-info">Email me at <a href="mailto:jeff.connelly6@gmail.com" target="_top">jeff.connelly6@gmail.com</a></h3>
+    <h3 class="contact-info">Check Out my <a href="https://github.com/jeffconnelly" target="_blank">Github</a>  <span class="fa fa-github" aria-hidden="true"></span> </h3>
+    <h3 class="contact-info">Reach Out to Me On <a href="https://www.linkedin.com/in/jeff-connelly-68394b65/" target="_blank">LinkedIn</a>  <span class="fa Example of linkedin-square fa-linkedin-square" aria-hidden="true"></span></h3>
+    <h3 class="contact-info last-contact">Email me at <a href="mailto:jeff.connelly6@gmail.com" target="_top">jeff.connelly6@gmail.com</a></h3>
 </section>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"
