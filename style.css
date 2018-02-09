@@ -317,5 +317,10 @@ p {
   .contact-info {
     font-size: 1.5em;
   }
+
+  .jcportraitimg {
+    width: 300px;
+    margin-left: 5%;
+  }
 }
 
