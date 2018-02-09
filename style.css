@@ -278,7 +278,6 @@ p {
     max-width: 90%;
   }
 
-
   #headercontent {
     font-size: .8em;
   }
@@ -292,6 +291,11 @@ p {
 @media (max-width: 480px) {
   #headercontent {
     font-size: .6em;
+  }
+
+  .project-img {
+    width: 280px;
+    height: 200px;
   }
 }
 
