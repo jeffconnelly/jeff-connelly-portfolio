@@ -61,13 +61,6 @@ border-color: #CFCED3;
 	height: 700px;
 }
 
-/* 
-Other image options: 
-background: url("https://images.unsplash.com/photo-1500053857731-701d06fac2fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=9c978e527d54a3e7288e410b9f1a4575");	
-https://images.unsplash.com/46/iYvDeqVGRbebiQv2PIJi_DSC_8407.JPG?ixlib=rb-0.3.5&s=b8af2cd38c1653fb341688f619f01a18&auto=format&fit=crop&w=1053&q=80
-
-*/
-
 #jc-top-img {
 	height: 220px;
 	margin-top: 130px;
@@ -86,21 +79,12 @@ https://images.unsplash.com/46/iYvDeqVGRbebiQv2PIJi_DSC_8407.JPG?ixlib=rb-0.3.5&
   font-weight: 200px;
 }
 
-/*Attempt to get background shadow behind text*/
-.header-background {
-  /* display: inline-block; */
-  /* background-color: rgba(207, 206, 210,.30); */
-  /* max-width: 60%; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
-}
-
 h1 {
 	font-size: 4em;
 	font-weight: 300;
 }
 
-h3{
+h3 {
 	margin-top: 0px;
 }
 
@@ -118,7 +102,6 @@ h3{
 #pheader {
 	margin-top: 10px;
 	padding-top: 20px;
-	padding-bottom: 20px;
 	text-align: center;
 	color: rgb(100, 147, 186);
 	font-family: Roboto;
@@ -134,6 +117,12 @@ h3{
 	margin: 0px auto;
 	border-color: #DDDDDD	
 } 
+
+.connect-wrapper {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: block;
+}
 
 /*** About Me Section ***/
 
@@ -239,9 +228,17 @@ p {
 }
 
 .tech-stack {
+  /* display: block; */
+  /* margin: 10px 0px 10px 0px; */
   font-weight: 900;
   color: black;
   font-size: 22px;
+}
+
+.tech-stack-wrapper {
+  display: block;
+  margin: 10px 0px 10px 0px;
+
 }
 
 /*** Contact Section ***/
