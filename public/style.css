@@ -203,6 +203,10 @@ p {
   border: 4px solid white;
 }
 
+.topical {
+  max-height: 400px;
+}
+
 .project-img:hover {
   background-color: #CFCED3;
   opacity: 0.8;
